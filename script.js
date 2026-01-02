@@ -13,3 +13,17 @@ document.querySelector("#push").addEventListener("click",()=>{
         `
     }
 })
+
+var current_tasks = document.querySelectorAll(".delete");
+for(var i=0; i<current_task.length; i++){
+    document.querySelector(currents_task[i]).addEventListener("click",()=>{
+        this.parentNode.remove();
+    })
+}
+
+var tasks = document.querySelectorAll(".tasks");
+for(var i=0; i<tasks; i++){
+    tasks[i].addEventListener("click",()=>{
+        this.classList.toggle('.completed');
+    })
+}
