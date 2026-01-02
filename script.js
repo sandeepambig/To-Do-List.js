@@ -21,9 +21,9 @@ for(var i=0; i<current_task.length; i++){
     })
 }
 
-var tasks = document.querySelectorAll(".tasks");
+var tasks = document.querySelectorAll(".task #taskname");
 for(var i=0; i<tasks; i++){
     tasks[i].addEventListener("click",()=>{
-        this.classList.toggle('.completed');
+        this.classList.toggle(".completed");
     })
 }
